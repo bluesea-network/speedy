@@ -26,6 +26,9 @@ mod ext_smallvec;
 #[cfg(feature = "regex")]
 mod ext_regex;
 
+#[cfg(feature = "bytes")]
+mod ext_bytes;
+
 #[doc(hidden)]
 pub mod private;
 
